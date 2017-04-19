@@ -20,7 +20,7 @@ Would generate all power-of-2 size images from _MyFullSizeIcon.png_ starting wit
 
 ## Notes
 
-This is a general-purpose script which is intended for working with draft icons or other developer resizing needs. When shipping the final icons for your polished macOS application, you should be customizing the icon visually for each size and for retina or non-retina displays. More info: [https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/](https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/)
+This is a general-purpose script which is intended for working with draft icons or other developer resizing needs. When shipping the final icons for your polished macOS application, you should be customizing the icon visually for each size and for retina or non-retina displays. More info: [https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/OSXHIGuidelines/Designing.html](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/OSXHIGuidelines/Designing.html/)
 
 ## Author
 
