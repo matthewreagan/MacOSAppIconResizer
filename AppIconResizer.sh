@@ -6,7 +6,7 @@ minSize="16"
 #Usage: ./AppIconResizer.sh <LARGEST_DESIRED_SIZE> <IMAGE_PATH>
 #       Ex: ./AppIconResizer.sh 1024 MyFullResIcon.png
 #       This example would create copies of 'MyFullResIcon.png' which have
-#       been resized to 1024x1024, 512x512, 256x256, 128x128x, and so on,
+#       been resized to 1024x1024, 512x512, 256x256, 128x128, and so on,
 #       down to the minimum size (defaults to 16x16). By default the new
 #       copies have the same file name as the original, simply appended
 #       with the new size (e.g. 'MyFullResIcon1024.png', 'MyFullResIcon512.png')
@@ -16,7 +16,7 @@ if [ $# -ne 2 ]
 then
 echo "$(basename $0): Expecting 2 arguments: [1] the largest target size for the new files, and [2] a path to the original image file (in a standard raster format such as PNG)."
 echo "Usage:"
-echo "\tAppIconResizer.sh <LARGEST_DESIRED_SIZE> <IMAGE_PATH>\n\tEx: ./AppIconResizer.sh 1024 MyFullResIcon.png\n\tThis example would create copies of 'MyFullResIcon.png' which have been resized to 1024x1024, 512x512, 256x256, 128x128x, and so on, down to the minimum size (defaults to 16x16). By default the new copies have the same file name as the original, simply appended with the new size (e.g. 'MyFullResIcon1024.png', 'MyFullResIcon512.png'). For more information: "
+echo "\tAppIconResizer.sh <LARGEST_DESIRED_SIZE> <IMAGE_PATH>\n\tEx: ./AppIconResizer.sh 1024 MyFullResIcon.png\n\tThis example would create copies of 'MyFullResIcon.png' which have been resized to 1024x1024, 512x512, 256x256, 128x128, and so on, down to the minimum size (defaults to 16x16). By default the new copies have the same file name as the original, simply appended with the new size (e.g. 'MyFullResIcon1024.png', 'MyFullResIcon512.png'). For more information: "
 exit 1
 fi
 
